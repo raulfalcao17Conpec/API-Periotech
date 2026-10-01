@@ -15,7 +15,6 @@ INFLAMMATION_CLASS = 1
 NON_INFLAMMATION_CLASS = 2
 PLAQUE_CLASS = 3
 POSTERIOR_TOOTH_CLASS = 4
-# teste
 def result_to_json(result, image_percentages):
     """
     Convert one YOLO segmentation result into a fully JSON-serializable dict.

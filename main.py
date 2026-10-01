@@ -6,6 +6,7 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from ultralytics import YOLO
+
 '''
  Bibliotecas importadas e para que elas são usadas: 
  1. Com a NumPy, conseguimos pegar uma foto e transformá-la em uma matriz de  números, que é muito 
